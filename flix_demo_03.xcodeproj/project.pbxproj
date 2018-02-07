@@ -10,6 +10,8 @@
 		345F00008136160328C2B6A0 /* Pods_flix_demo_03.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A15AA8349E36AD1FD96013 /* Pods_flix_demo_03.framework */; };
 		6C84D8F92D1EA1F04916EB50 /* Pods_flix_demo_03Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5223B3A9378822F7B0FBF625 /* Pods_flix_demo_03Tests.framework */; };
 		7F60495354D3CF74FCFAD31A /* Pods_flix_demo_03UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D28FCE794719D4A5C2A1F8 /* Pods_flix_demo_03UITests.framework */; };
+		D8D220E4202BB57E0050C2EE /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D220E3202BB57E0050C2EE /* PosterCell.swift */; };
+		D8D220E6202BB5D70050C2EE /* SuperHeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D220E5202BB5D70050C2EE /* SuperHeroViewController.swift */; };
 		D8F5382D20282438000BA65B /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F5382C20282438000BA65B /* NowPlayingViewController.swift */; };
 		D8F5382F2029015C000BA65B /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F5382E2029015C000BA65B /* MovieCell.swift */; };
 		D8F53833202A82D5000BA65B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F53832202A82D5000BA65B /* DetailViewController.swift */; };
@@ -46,6 +48,8 @@
 		75A15AA8349E36AD1FD96013 /* Pods_flix_demo_03.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flix_demo_03.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D28FCE794719D4A5C2A1F8 /* Pods_flix_demo_03UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flix_demo_03UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC81D16FB284A052D869E38 /* Pods-flix_demo_03UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flix_demo_03UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-flix_demo_03UITests/Pods-flix_demo_03UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8D220E3202BB57E0050C2EE /* PosterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
+		D8D220E5202BB5D70050C2EE /* SuperHeroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroViewController.swift; sourceTree = "<group>"; };
 		D8F53828202823C4000BA65B /* flix_demo_03-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "flix_demo_03-Bridging-Header.h"; sourceTree = "<group>"; };
 		D8F5382C20282438000BA65B /* NowPlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 		D8F5382E2029015C000BA65B /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 			children = (
 				D8F5382C20282438000BA65B /* NowPlayingViewController.swift */,
 				D8F53832202A82D5000BA65B /* DetailViewController.swift */,
+				D8D220E5202BB5D70050C2EE /* SuperHeroViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				D8F5382E2029015C000BA65B /* MovieCell.swift */,
+				D8D220E3202BB57E0050C2EE /* PosterCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -485,7 +491,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D220E6202BB5D70050C2EE /* SuperHeroViewController.swift in Sources */,
 				D8F5382D20282438000BA65B /* NowPlayingViewController.swift in Sources */,
+				D8D220E4202BB57E0050C2EE /* PosterCell.swift in Sources */,
 				F0D8D771201FDB7400F95438 /* AppDelegate.swift in Sources */,
 				D8F5382F2029015C000BA65B /* MovieCell.swift in Sources */,
 				D8F53833202A82D5000BA65B /* DetailViewController.swift in Sources */,
