@@ -19,7 +19,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
     
     var movies: [[String: Any]] = []
     var refreshControl: UIRefreshControl!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         activityIndicator.startAnimating()
@@ -36,7 +36,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         
         fetchMovies()
     }
-
+    
     func fetchMovies(){
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
         
@@ -59,7 +59,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         }
         task.resume()
     }
-
+    
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -84,10 +84,25 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //get the index path of the cell that was selected
+        
+        let cell = sender as! UITableViewCell
+        if let indexPath = tableView.indexPath(for: cell){
+            //gets the cell
+            let movie = movies[indexPath.row]
+            //gets the movie
+            let detailViewController = segue.destination as! DetailViewController
+            detailViewController.movie = movie
+        }
+        
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
