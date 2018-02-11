@@ -75,7 +75,7 @@ Progress was slow but I'm happy with the result. For the most part everything we
 
 **FLIX** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
 ## User Stories
 
@@ -99,8 +99,8 @@ The following **additional** features are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
-2.
+1. Implementing a search function
+2. Clean design throughout the app
 
 ## Video Walkthrough
 
@@ -112,7 +112,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-***I am using a virtual machine to run OSX, and I have encountered an issue where it will not load into the operating system. I have tried numerous troubleshoting methods, but so far I have not been able to resolve the issue, and as a result my progress on the project has been halted at the moment. ***
+I am using a virtual machine to run OSX, and I have encountered an issue where it will not load into the operating system. I have tried numerous troubleshoting methods, but so far I have not been able to resolve the issue, and as a result my progress on the project has been halted at the moment.
 
 ## License
 
@@ -129,10 +129,3 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
-
-
-
-
-
-
