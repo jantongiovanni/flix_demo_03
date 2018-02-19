@@ -154,7 +154,7 @@ The following **required** user stories are complete:
 
 The following **stretch** user stories are implemented:
 
-- [ ] Dynamic Height Cells (+1)
+- [x] Dynamic Height Cells (+1)
 - [ ] Collection View AutoLayout (+2)
 
 The following **additional** user stories are implemented:
@@ -170,7 +170,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/fOHXJk8.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/a/ilZLF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
