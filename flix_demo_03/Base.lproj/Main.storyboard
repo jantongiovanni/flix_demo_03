@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Movies-->
+        <!--Now Playing Movies-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="NowPlayingViewController" customModule="flix_demo_03" customModuleProvider="target" sceneMemberID="viewController">
@@ -27,7 +27,7 @@
                                         <rect key="frame" x="0.0" y="92" width="414" height="162"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eg0-uJ-Kc2" id="oLL-Ly-ytk">
-                                            <frame key="frameInset" width="414" height="161"/>
+                                            <frame key="frameInset" width="414" height="161.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UAg-QI-cF8">
@@ -67,7 +67,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Movies" id="s6P-ni-5It"/>
+                    <navigationItem key="navigationItem" title="Now Playing Movies" id="s6P-ni-5It"/>
                     <connections>
                         <outlet property="activityIndicator" destination="h4W-wv-186" id="uyl-C4-2fY"/>
                         <outlet property="tableView" destination="DLC-GE-AgX" id="Cco-M7-0j4"/>
@@ -98,7 +98,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Overview" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Syr-EE-P1l">
-                                <frame key="frameInset" minX="20" minY="429" width="94.92%" height="81.27%"/>
+                                <frame key="frameInset" minX="20" minY="429" width="94.67%" height="81.11%"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -160,6 +160,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="gab-Lq-xlS" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="iHh-Zx-lW6">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -172,7 +173,7 @@
             </objects>
             <point key="canvasLocation" x="117.39130434782609" y="123.91304347826087"/>
         </scene>
-        <!--Super Hero View Controller-->
+        <!--Superhero Movies-->
         <scene sceneID="d1k-az-nmD">
             <objects>
                 <viewController id="av1-VP-b24" customClass="SuperHeroViewController" customModule="flix_demo_03" customModuleProvider="target" sceneMemberID="viewController">
@@ -210,6 +211,7 @@
                                         </view>
                                         <connections>
                                             <outlet property="posterImageView" destination="Tc9-QV-CbE" id="1OJ-jA-9Zm"/>
+                                            <segue destination="IRR-e4-IUj" kind="show" id="bLU-AD-6hE"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -217,7 +219,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="F8w-a0-10n"/>
+                    <navigationItem key="navigationItem" title="Superhero Movies" id="F8w-a0-10n"/>
                     <connections>
                         <outlet property="collectionView" destination="QaX-TG-dSx" id="qTR-qb-lm7"/>
                     </connections>
@@ -250,4 +252,7 @@
         <image name="now_playing_tabbar_item" width="21" height="21"/>
         <image name="superhero_tabbar_item" width="21" height="23"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="eGm-eS-oom"/>
+    </inferredMetricsTieBreakers>
 </document>
