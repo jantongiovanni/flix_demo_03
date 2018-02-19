@@ -163,8 +163,8 @@ The following **additional** user stories are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. Discussing further how to efficiently implement constraints
+2. addressing some issues i had along the way with text overlapping
 
 ## Video Walkthrough
 
@@ -177,6 +177,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+Not setting constrainsts correctly and having overlapping text or out of posisiton items
 
 ## License
 
