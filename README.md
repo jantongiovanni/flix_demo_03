@@ -49,7 +49,7 @@ Progress was slow but I'm happy with the result. For the most part everything we
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Joe Antongiovanni]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -116,7 +116,7 @@ I am using a virtual machine to run OSX, and I have encountered an issue where i
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2018] [Joe Antongiovanni]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -183,7 +183,7 @@ Was not able to figure out how to configure auto layout for the collection view
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2018] [Joe Antongiovanni]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -198,10 +198,59 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
+---
 
 
 
 
+# Lab 5 - *FLIX*
 
-=======
->>>>>>> 2af3d82cbef38d727d2b64e31fb715251a5b6576
+**FLIX** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+
+Time spent: **3** hours spent in total
+
+## User Stories
+
+The following **required** user stories are complete:
+
+- [x] Create a movie model (+2pt)
+- [x] Implement the movie model (+2pt)
+- [x] Implement property observers (+2pt)
+- [x] Create a basic API Client (+2pt)
+
+The following **additional** user stories are implemented:
+
+- [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
+
+Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
+
+1. Proper structure of files 
+2. Ways to improve to further reduce redundancy
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://i.imgur.com/k0eROLz.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes
+
+Describe any challenges encountered while building the app.
+
+## License
+
+Copyright [2018] [Joe Antongiovanni]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

@@ -172,11 +172,11 @@
             </objects>
             <point key="canvasLocation" x="2652.1739130434785" y="123.91304347826087"/>
         </scene>
-        <!--Now Playing-->
+        <!--Popular-->
         <scene sceneID="Jcr-X1-lDi">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ljC-xa-Vwk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Now Playing" image="now_playing_tabbar_item" id="TbN-bb-xLJ"/>
+                    <tabBarItem key="tabBarItem" title="Popular" image="now_playing_tabbar_item" id="TbN-bb-xLJ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GqW-w6-smu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
