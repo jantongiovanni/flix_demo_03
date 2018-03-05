@@ -41,7 +41,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
     
     func fetchMovies(){
         
-        MovieApiManager().nowPlayingMovies { (movies: [Movie]?, error: Error?) in
+        MovieApiManager().popularMovies{ (movies: [Movie]?, error: Error?) in
             if let movies = movies {
                 self.movies = movies
                 self.tableView.reloadData()
@@ -51,38 +51,6 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
             self.activityIndicator.stopAnimating()
 
         }
-        
-        
-        
-        
-//        let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
-//        
-//        
-//        let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
-//        let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
-//        let task = session.dataTask(with: request) {(data, response, error) in
-//            //this will run when the network request returns
-//            if let error = error{
-//                print(error.localizedDescription)}
-//            else if let data = data{
-////                let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
-////                //print(dataDictionary)
-////                //casting as swift dictionary
-////                let movies = dataDictionary["results"] as! [[String: Any]]
-////                self.movies = movies
-//                let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
-//                let movieDictionaries = dataDictionary["results"] as! [[String: Any]]
-//                
-//                self.movies = []
-//                for dictionary in movieDictionaries {
-//                    let movie = Movie(dictionary: dictionary)
-//                    self.movies.append(movie)
-//                }
-//                self.tableView.reloadData()
-//                self.refreshControl.endRefreshing()
-//            }
-//        }
-//        task.resume()
     }
     
     

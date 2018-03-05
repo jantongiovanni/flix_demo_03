@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Now Playing Movies-->
+        <!--Popular Movies-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="NowPlayingViewController" customModule="flix_demo_03" customModuleProvider="target" sceneMemberID="viewController">
@@ -86,7 +86,7 @@
                             <constraint firstItem="DLC-GE-AgX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="kLA-Wg-Qug"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Now Playing Movies" id="s6P-ni-5It"/>
+                    <navigationItem key="navigationItem" title="Popular Movies" id="s6P-ni-5It"/>
                     <connections>
                         <outlet property="activityIndicator" destination="h4W-wv-186" id="uyl-C4-2fY"/>
                         <outlet property="tableView" destination="DLC-GE-AgX" id="Cco-M7-0j4"/>
@@ -290,6 +290,6 @@
         <image name="superhero_tabbar_item" width="21" height="23"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bLU-AD-6hE"/>
+        <segue reference="eGm-eS-oom"/>
     </inferredMetricsTieBreakers>
 </document>
